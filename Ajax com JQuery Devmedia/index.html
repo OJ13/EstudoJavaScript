@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Consumo Ajax</title>
+</head>
+<body>
+    <header>
+        <img src="Imagem\logo-devmedia.png" alt="Logo Devmedia" style="width:260px" >
+    </header>
+    <section>
+        <h1>Consulta de Noticias</h1>
+        <form id="formulario" style="margin-bottom: 25px">
+           <label>Id da nota a ser buscado:</label><br><br>
+           <input id="id_nota" type="text" name="id" value="" placeholder="vazio para exibir todas">
+           <button id="enviar">Enviar</button>
+           <span id="loading"></span>
+        </form>
+        <hr>
+        <p id="retorno"></p>
+    </section>
+
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="JS/script.js"></script>
+</body>
+</html>
